@@ -2,8 +2,6 @@ package dsr.amm.homebudget.controller;
 
 import dsr.amm.homebudget.data.dto.CategoryDTO;
 import org.springframework.beans.factory.annotation.Autowired;
-import dsr.amm.homebudget.data.entity.Category;
-import org.springframework.beans.factory.annotation.Value;
 
 import org.springframework.web.bind.annotation.*;
 

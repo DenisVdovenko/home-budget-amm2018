@@ -2,20 +2,15 @@ package dsr.amm.homebudget.data.dto;
 
 import dsr.amm.homebudget.data.entity.Person;
 
-import javax.persistence.ManyToOne;
-import javax.validation.constraints.NotNull;
 
 public class CategoryDTO {
 
     private Long id;
 
-    @NotNull
     private String name;
 
-    @NotNull
     private String description;
 
-    @ManyToOne
     private Person owner;
 
     public Long getId() {

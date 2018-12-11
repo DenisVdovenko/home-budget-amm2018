@@ -1,7 +1,6 @@
 package dsr.amm.homebudget.controller;
 
 import dsr.amm.homebudget.data.dto.CurrencyDTO;
-import dsr.amm.homebudget.data.entity.Currency;
 import dsr.amm.homebudget.service.CurrencyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
